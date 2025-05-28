@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Univculture In Heaven</title>
+
+  <link rel="stylesheet" href="style2.css">
+  <style>
+    /* Masonry 스타일의 gallery */
+    .gallery {
+      column-count: 4;
+      column-gap: 12px;
+      padding: 20px;
+    }
+
+    .item {
+      break-inside: avoid;
+      margin-bottom: 12px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @media (max-width: 1200px) {
+      .gallery {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .gallery {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .gallery {
+        column-count: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Univculture<br>In Heaven</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="timeline.html">Timelines</a></li>
+        <li><a href="part.html">Part</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+
+  <div class="container">
+    
+    <aside>
+      <div class="side-menu">
+        <a href="gallery.html"class='active'>단체</a>
+        <a href="gallery-Individual.html">단독</a>
+      </div>
+    </aside>
+    <main>
+      <h2>Gallery_Group</h2>
+
+      <!-- 텍스트 + 이미지 블록 -->
+      <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+        <div id="text-block" style="flex: 1 1 300px; min-width: 200px;">
+          <p id="text-content" style="font-size: 16px; letter-spacing: -1.5px; line-height: 1.6; margin: 0;">
+            이 공간은 문화과 모임, 단합, 활동 등 문화과원들의 모습들을 담아낸 갤러리 공간이다.
+            <br>각자 다양한 개성과 특별함을 가지고 하늘 문화로 만국 소성이라는 한 뜻, 한 마음으로 모여
+            <br>대학 문화 발전을 위해 힘쓰고 서로를 더욱 알아가는 현장이 고스란히 담겨져 있다.
+            <br>
+            <br>항시 대학 문화 발전을 위해 뛰고 애쓰는 모습들,
+            <br>작업한 작업물을 가지고 현장에서 지체들과 함께 활동하며 선한 영향력을 끼치는 모습들을 통해
+            <br>하나님의 말씀으로 나서 서로를 살리고 힘이 되어주는, 하나님이 함께하시는 말씀이 이루어진 실체
+            <br>곧 하늘 문화의 실체들의 육적으로나 영적으로나 아름다운 모습이다.
+            <br>
+            <br>이러한 모습들은 기록으로 영원히 남아 대학 지역의 문화과로서 부서에 힘이 되기 위하여
+            <br>문화과원들이 보이지 않는 곳에서 항시 힘쓰고 있음이 영원히 증거될 것이다.
+            <br>
+            <br>사진은 좌측 세로 한 줄씩 시간 순서대로 배치되어 있다.
+          </p>
+        </div>
+
+        <img src="images/gallery/group/420406.jpg" alt="사진"
+             style="height: auto; object-fit: cover; max-height: 350px; flex-shrink: 0;"
+             class="responsive-second-img">
+
+        <img src="images/gallery/group/420511.jpg" alt="사진"
+             style="height: auto; object-fit: cover; max-height: 350px; flex-shrink: 0;">
+
+      </div>
+
+      <style>
+        @media (max-width: 900px) {
+          .responsive-second-img {
+            width: 100%;
+            max-width: 350px;
+          }
+        }
+      </style>
+
+      <!-- Masonry 스타일 갤러리 시작 -->
+      <div class="gallery">
+        <div class="item"><img src="images/gallery/group/411201.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411208-1.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411208-2.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411215.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411222-1.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411222-2.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411222-3.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411222-4.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411222-5.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411222-6.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411226.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411227.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/411231.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420105-1.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420105-2.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420105-3.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420105-4.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420112.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420127-1.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420127-2.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420127-3.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420127-4.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420202.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420329.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420406-1.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420406-2.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420406-3.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420406-4.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420406-5.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420406-6.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420413.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420426-1.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420426-2.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420518-1.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420518-2.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420518-3.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420518-4.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420518-5.JPG" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420525-1.jpg" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420525-2.jpg" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420525-3.jpg" alt="사진"></div>
+        <div class="item"><img src="images/gallery/group/420525-4.jpg" alt="사진"></div>
+        
+      </div>
+    </main>
+  </div>
+</body>
+</html>

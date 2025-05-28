@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Univculture In Heaven</title>
+
+  <link rel="stylesheet" href="style2.css">
+  <style>
+    /* Masonry 스타일의 gallery */
+    .gallery {
+      column-count: 4;
+      column-gap: 12px;
+      padding: 20px;
+    }
+
+    .item {
+      break-inside: avoid;
+      margin-bottom: 12px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @media (max-width: 1200px) {
+      .gallery {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .gallery {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .gallery {
+        column-count: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Univculture<br>In Heaven</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="timeline.html">Timelines</a></li>
+        <li><a href="part.html">Part</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+
+  <div class="container">
+    
+    <aside>
+      <div class="side-menu">
+        <a href="gallery.html">단체</a>
+        <a href="gallery-Individual.html"class='active'>단독</a>
+      </div>
+    </aside>
+    <main>
+      <h2>Gallery_Individual</h2>
+        이곳은 문화과원들 단독사진 갤러리 공간이다.
+
+
+      <!-- Masonry 스타일 갤러리 시작 -->
+      <div class="gallery">
+        <div class="item"><img src="images/gallery/individual/1.jpg" alt="사진"></div>
+        <div class="item"><img src="images/gallery/individual/2.jpg" alt="사진"></div>
+        <div class="item"><img src="images/gallery/individual/3.jpg" alt="사진"></div>
+        <div class="item"><img src="images/gallery/individual/4.jpg" alt="사진"></div>
+        <div class="item"><img src="images/gallery/individual/5.jpg" alt="사진"></div>
+        <div class="item"><img src="images/gallery/individual/6.jpg" alt="사진"></div>
+        
+      </div>
+    </main>
+  </div>
+</body>
+</html>
